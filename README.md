@@ -1,5 +1,3 @@
-# Remove-Tracking-Parameters-Bookmarklet
- 
 <h1 align="center">
   <br>
   <a href="https://github.com/chandrath/Remove-Tracking-Parameters-Bookmarklet"><img src="https://cdn-icons-png.flaticon.com/512/2899/2899445.png" alt="Markdownify" width="200"></a>
@@ -50,7 +48,10 @@ javascript:location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");
 ```
 - or You just drag the bellow button to the bookmark bar of your browser.
 
- <a href="javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,'');})();" style="padding: 8px 12px; border: 1px solid #24292e; border-radius: 4px; background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); color: #fff; text-decoration: none;">Remove Tracking Parameters</a>
+<a href='javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");})();' style='padding: 8px 12px; border: 1px solid #24292e; border-radius: 4px; background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); color: #fff; text-decoration: none;'>Remove Tracking Parameters</a>
+
+
+
 
 
 
