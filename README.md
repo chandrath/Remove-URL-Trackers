@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h5 align="center">This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters. Please note that the bookmarklet requires user interaction to remove the parameters. After the webpage has loaded, you can simply click on the bookmarklet, and it will remove the tracking parameters from the URL.</h5>
+> <h5 align="center">*This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters. Please note that the bookmarklet requires user interaction to remove the parameters. After the webpage has loaded, you can simply click on the bookmarklet, and it will remove the tracking parameters from the *URL.</h5>
 
  
 
@@ -46,9 +46,7 @@ https://www.example.com/
 javascript:location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");
 
 ```
-- or You just drag the bellow button to the bookmark bar of your browser.
-
-<a href='javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");})();' style='padding: 8px 12px; border: 1px solid #24292e; border-radius: 4px; background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); color: #fff; text-decoration: none;'>Remove Tracking Parameters</a>
+- or click on this [**link**](https://chandrath.github.io/Remove-Tracking-Parameters-Bookmarklet/) to get the button so that you can just drag it to the bookmarks bar of your browser.
 
 
 
