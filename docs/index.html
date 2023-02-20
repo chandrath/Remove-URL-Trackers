@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Remove Tracking Parameters Bookmarklet</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        background-color: #f2f2f2;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 50px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
-      h1 {
-        text-align: center;
-      }
-      p {
-        margin-bottom: 30px;
-      }
-      a {
-        display: block;
-        margin: 0 auto;
-        padding: 8px 12px;
-        border: 1px solid #24292e;
-        border-radius: 4px;
-        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-        color: #fff;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Remove Tracking Parameters Bookmarklet</h1>
-      <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters.</p>
-      <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
-      <a href='javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");})();'>Remove Tracking Parameters</a>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Tracking Parameters Bookmarklet</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    .button {
+      padding: 8px 12px;
+      border: 1px solid #24292e;
+      border-radius: 4px;
+      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Remove Tracking Parameters Bookmarklet</h1>
+    <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters.</p>
+    <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
+    <a href='javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");})();' class='button'>Remove Tracking Parameters</a>
+  </div>
+</body>
 </html>
