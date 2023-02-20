@@ -1,73 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Remove Tracking Parameters Bookmarklet</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-      }
-      h1 {
-        font-size: 48px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 100px;
-      }
-      p {
-        font-size: 24px;
-        text-align: center;
-        margin-top: 40px;
-      }
-      a {
-        display: block;
-        margin: 20px auto;
-        padding: 8px 12px;
-        border: 1px solid #24292e;
-        border-radius: 4px;
-        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        width: 300px;
-      }
-      a:hover {
-        background: #3d3d3d;
-        cursor: pointer;
-      }
-      img {
-        display: block;
-        margin: 0 auto;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-top: 20px;
-      }
-      .profile-link {
-        font-size: 16px;
-      }
-    </style>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Tracking Parameters Bookmarklet</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
     <h1>Remove Tracking Parameters Bookmarklet</h1>
-    <p>
-      This bookmarklet removes tracking parameters from URLs, which can be useful
-      if you want to share a link without the tracking parameters. Please note that
-      the bookmarklet requires user interaction to remove the parameters. After the
-      webpage has loaded, you can simply click on the bookmarklet, and it will remove
-      the tracking parameters from the URL.
-    </p>
-    <a href="javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,'');})();">Remove Tracking Parameters</a>
-    <p>
-      Please note that some websites may require these parameters to function properly,
-      so use this bookmarklet with caution. If you have any feedback or suggestions,
-      please let me know!
-    </p>
-    <img src="https://avatars.githubusercontent.com/u/30428101?s=400&u=62ec097654cf27202d5ca11a977ebdc5fcdb0999&v=4" alt="Profile Picture">
-    <p class="profile-link">
-      Created by <a href="https://github.com/chandrath" style="font-size: 20px;">Chand Rath</a>
-    </p>
-  </body>
+    <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters.</p>
+    <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
+    <button onclick="alert('To use the bookmarklet, drag this button to your bookmarks bar:\n\nRemove Tracking Parameters')">Drag to Bookmarks Bar</button>
+  </div>
+</body>
 </html>
