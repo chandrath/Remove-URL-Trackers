@@ -16,7 +16,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/src)
+![screenshot](https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB_GIF_V1.gif)
 
 ## Key Features
 
