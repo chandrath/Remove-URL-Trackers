@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Remove Tracking Parameters Bookmarklet</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f2f2f2;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 50px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-    h1 {
-      text-align: center;
-      margin-top: 0;
-    }
-    p {
-      margin-bottom: 30px;
-    }
-    button {
-      display: block;
-      margin: 0 auto;
-      padding: 8px 20px;
-      border: none;
-      border-radius: 4px;
-      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-      color: #fff;
-      font-size: 16px;
-      cursor: pointer;
-      width: fit-content;
-    }
-    img {
-      display: block;
-      margin: 0 auto 30px;
-      max-width: 200px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB%20ICON.png" alt="Logo">
-    <h1>Remove Tracking Parameters Bookmarklet</h1>
-    <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters.</p>
-    <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
-    <button onclick="alert('To use the bookmarklet, drag this button to your bookmarks bar:\n\nRemove Tracking Parameters')">Remove Tracking Parameters</button>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Tracking Parameters Bookmarklet</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f2f2f2;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 4px;
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        width: fit-content;
+      }
+      img {
+        display: block;
+        margin: 0 auto 30px;
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB%20ICON.png" alt="Logo">
+      <h1>Remove Tracking Parameters Bookmarklet</h1>
+      <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters.</p>
+      <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
+      <a href="javascript:(function(){location.href=location.href.replace(/[?&]utm_[^&]+/gi,'');})();"><button>Remove Tracking Parameters</button></a>
+    </div>
+  </body>
 </html>
