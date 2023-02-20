@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/chandrath/Remove-Tracking-Parameters-Bookmarklet"><img src="https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB%20ICON.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/chandrath/Remove-URL-Trackers"><img src="https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB%20ICON.png" alt="Markdownify" width="200"></a>
   <br>
-  Remove Tracking Parameters
+  Remove URL Trackers
   <br>
 </h1>
 
@@ -16,7 +16,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB_GIF_V1.gif)
+![screenshot](https://raw.githubusercontent.com/chandrath/Remove-URL-Trackers/main/src/img/RTPB_GIF_V1.gif)
 
 ## Key Features
 
@@ -46,7 +46,7 @@ https://www.example.com/
 javascript:(function(){window.location.href = window.location.href.split("?")[0];})();
 
 ```
-- or click on this [**link**](https://chandrath.github.io/Remove-Tracking-Parameters-Bookmarklet/) to get the button so that you can just drag it to the bookmarks bar of your browser.
+- or click on this [**link**](https://chandrath.github.io/Remove-URL-Trackers/) to get the button so that you can just drag it to the bookmarks bar of your browser.
 
 
 
