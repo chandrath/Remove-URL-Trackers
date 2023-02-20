@@ -43,7 +43,7 @@ https://www.example.com/
 3. In the URL or location field of the bookmark, copy and paste the following code:
 
 ```
-javascript:location.href=location.href.replace(/[?&]utm_[^&]+/gi,"");
+javascript:(function(){window.location.href = window.location.href.split("?")[0];})();
 
 ```
 - or click on this [**link**](https://chandrath.github.io/Remove-Tracking-Parameters-Bookmarklet/) to get the button so that you can just drag it to the bookmarks bar of your browser.
