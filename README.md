@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-> <h5 align="center">*This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without the tracking parameters. Please note that the bookmarklet requires user interaction to remove the parameters. After the webpage has loaded, you can simply click on the bookmarklet, and it will remove the tracking parameters from the *URL.</h5>
+> <h5 align="center">*This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without those trackers. Please note that the bookmarklet requires user interaction to remove the parameters. After the webpage has loaded, you can simply click on the bookmarklet, and it will remove the tracking parameters from the *URL.</h5>
 
  
 
