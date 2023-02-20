@@ -64,7 +64,7 @@ javascript:(function(){window.location.href = window.location.href.split("?")[0]
 
 ## License
 
-MIT
+Unlicense
 
 ---
 
