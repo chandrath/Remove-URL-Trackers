@@ -38,7 +38,7 @@ https://www.example.com/
 
 1. Open your web browser and create a new bookmark by pressing Ctrl + D (Windows) or Command + D (Mac).
 
-2. Edit the name of the bookmark to something like "Remove Tracking Parameters".
+2. Edit the name of the bookmark to something like "Remove Tracking".
 
 3. In the URL or location field of the bookmark, copy and paste the following code:
 
