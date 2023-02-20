@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/chandrath/Remove-Tracking-Parameters-Bookmarklet"><img src="https://cdn-icons-png.flaticon.com/512/2899/2899445.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/chandrath/Remove-Tracking-Parameters-Bookmarklet"><img src="https://raw.githubusercontent.com/chandrath/Remove-Tracking-Parameters-Bookmarklet/main/src/img/RTPB%20ICON.png" alt="Markdownify" width="200"></a>
   <br>
   Remove Tracking Parameters
   <br>
