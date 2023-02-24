@@ -41,6 +41,16 @@
         margin: 0 auto 30px;
         max-width: 200px;
       }
+      .github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .github img {
+        height: 20px;
+        margin-right: 10px;
+      }
     </style>
   </head>
   <body>
@@ -50,6 +60,9 @@
       <p>This bookmarklet removes tracking parameters from URLs, which can be useful if you want to share a link without those trackers.</p>
       <p>To use the bookmarklet, simply drag the button below to your bookmarks bar:</p>
       <a href="javascript:(function(){window.location.href = window.location.href.split('?')[0];})();"><button>Remove Trackers</button></a>
+      <div class="github">
+        <a href="https://github.com/chandrath/Remove-URL-Trackers"><img src="https://img.shields.io/github/stars/chandrath/Remove-URL-Trackers.svg?style=social" alt="GitHub stars"></a>
+      </div>
     </div>
   </body>
 </html>
